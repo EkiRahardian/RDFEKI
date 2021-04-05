@@ -1,0 +1,128 @@
+@base <https://ekirahardian.github.io/RDF_eki.rdf/> .
+@prefix eki: <https://ekirahardian.github.io/RDF_eki.rdf/> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+@prefix gmaps: <https://goo.gl/maps/> .
+@prefix geopc: <https://www.geopostcodes.com/> .
+
+###############################################################
+	
+eki:rt a rdf:Property ;
+	rdfs:range xsd:string .
+
+eki:rw a rdf:Property ;
+	rdfs:range xsd:string .
+	
+eki:pimpinan a rdf:Property ;
+	rdfs:range dbo:name .
+
+eki:Aktif a rdf:Property ;
+	rdfs:range xsd:boolean .
+	
+###############################################################
+
+#Kelurahan 1
+eki:Bintoro a dbo:Village ;
+	dbo:location gmaps:DPjHR4tFuJdoyNkv5 .
+
+#Kelurahan 2
+eki:Cabean a dbo:Village ;
+	dbo:location gmaps:Po67K68b1DJ1asN67 .
+
+#Kelurahan 3
+eki:Karangmlati a dbo:Village ;
+	dbo:location gmaps:Jyj6QtpvjdiaoMYp7 .
+
+###############################################################
+
+#Pesantren 1
+eki:510033210117 a dbo:organisation ;
+	dbo:name "Al Ishlah" ;
+	dbo:address "Jl. Kyai Turmudzi No.10 Sempal Wadak Bintoro Demak" ;
+	eki:rt "5" ;
+	eki:rw "3" ;
+	dbo:location eki:Bintoro ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "KH. Ali Mashar" ;
+	eki:Aktif true .
+
+#Pesantren 2
+eki:510033210115 a dbo:organisation ;
+	dbo:name "Al Fattaah" ;
+	dbo:address "Jl.Setinggil Alfattaah Rt 06 Rw 02" ;
+	eki:rt "6" ;
+	eki:rw "2" ;
+	dbo:location eki:Bintoro ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "Abdullah Arief Cholil" ;
+	eki:Aktif true .
+
+#Pesantren 3
+eki:510033210132 a dbo:organisation ;
+	dbo:name "Subulussalam" ;
+	dbo:address "Jl.Yudhomenggolo Rt 08 Rw 03 Bintoro Demak" ;
+	eki:rt "8" ;
+	eki:rw "3" ;
+	dbo:location eki:Bintoro ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "K.H. Nur Abdullah Miftah" ;
+	eki:Aktif true .
+
+#Pesantren 4
+eki:510033210126 a dbo:organisation ;
+	dbo:name "Darussalam" ;
+	dbo:address "Jl. Kyai Jebat No 9 Demak 59511" ;
+	eki:rt "1" ;
+	eki:rw "7" ;
+	dbo:location eki:Bintoro ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "Tafrihan" ;
+	eki:Aktif true .
+
+#Pesantren 5
+eki:510033210240 a dbo:organisation ;
+	dbo:name "Asshiddiqiyyah" ;
+	dbo:address "Desa Cabean, Jln. Kyai Kamal Gg. Mawar Rt. 05 Rw. 02 Demak" ;
+	eki:rt "5" ;
+	eki:rw "2" ;
+	dbo:location eki:Cabean ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "Nadliron, S. Ag" ;
+	eki:Aktif true .
+
+#Pesantren 6
+eki:510033210116 a dbo:organisation ;
+	dbo:name "Al Furqon" ;
+	dbo:address "Ngemplak Rt. 01 / Rw. 03 Karangmlati" ;
+	eki:rt "1" ;
+	eki:rw "3" ;
+	dbo:location eki:Karangmlati ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "K. Musta'an Ah" ;
+	eki:Aktif true .
+
+#Pesantren 7
+eki:510033210130 a dbo:organisation ;
+	dbo:name "Nurul Hikmah" ;
+	dbo:address "Jl. Kyai Singkil No. 16 Bintoro Demak" ;
+	eki:rt "7" ;
+	eki:rw "1" ;
+	dbo:location eki:Bintoro ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "Moh Ismail Fahmi, Ah" ;
+	eki:Aktif true .
+
+#Pesantren 8
+eki:510033210121 a dbo:organisation ;
+	dbo:name "As-Sujuudiyyah" ;
+	dbo:address "Jl. Glagahwangi Tembiring" ;
+	eki:rt "7" ;
+	eki:rw "3" ;
+	dbo:location eki:Bintoro ;
+	dbo:postalCode geopc:Demak ;
+	eki:pimpinan "KH. Munawar Sujud" ;
+	eki:Aktif true .
+
+###############################################################
