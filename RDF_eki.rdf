@@ -18,7 +18,7 @@ eki:rw a rdf:Property ;
 eki:pimpinan a rdf:Property ;
 	rdfs:range dbo:name .
 
-eki:Aktif a rdf:Property ;
+eki:aktif a rdf:Property ;
 	rdfs:range xsd:boolean .
 	
 ###############################################################
@@ -46,7 +46,7 @@ eki:510033210117 a dbo:organisation ;
 	dbo:location eki:Bintoro ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "KH. Ali Mashar" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 2
 eki:510033210115 a dbo:organisation ;
@@ -57,7 +57,7 @@ eki:510033210115 a dbo:organisation ;
 	dbo:location eki:Bintoro ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "Abdullah Arief Cholil" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 3
 eki:510033210132 a dbo:organisation ;
@@ -68,7 +68,7 @@ eki:510033210132 a dbo:organisation ;
 	dbo:location eki:Bintoro ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "K.H. Nur Abdullah Miftah" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 4
 eki:510033210126 a dbo:organisation ;
@@ -79,7 +79,7 @@ eki:510033210126 a dbo:organisation ;
 	dbo:location eki:Bintoro ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "Tafrihan" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 5
 eki:510033210240 a dbo:organisation ;
@@ -90,7 +90,7 @@ eki:510033210240 a dbo:organisation ;
 	dbo:location eki:Cabean ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "Nadliron, S. Ag" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 6
 eki:510033210116 a dbo:organisation ;
@@ -101,7 +101,7 @@ eki:510033210116 a dbo:organisation ;
 	dbo:location eki:Karangmlati ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "K. Musta'an Ah" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 7
 eki:510033210130 a dbo:organisation ;
@@ -112,7 +112,7 @@ eki:510033210130 a dbo:organisation ;
 	dbo:location eki:Bintoro ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "Moh Ismail Fahmi, Ah" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 #Pesantren 8
 eki:510033210121 a dbo:organisation ;
@@ -123,6 +123,6 @@ eki:510033210121 a dbo:organisation ;
 	dbo:location eki:Bintoro ;
 	dbo:postalCode geopc:Demak ;
 	eki:pimpinan "KH. Munawar Sujud" ;
-	eki:Aktif true .
+	eki:aktif true .
 
 ###############################################################
