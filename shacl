@@ -1,0 +1,76 @@
+@prefix eki: <https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dbo: <https://dbpedia.org/ontology/> .
+
+# Validasi di https://shacl.org/playground/
+
+eki:VillageShape a sh:NodeShape ;
+	sh:targetClass dbo:Village ;
+	sh:property [
+		sh:name "kelurahan atau desa" ;
+		sh:path dbo:location ;
+		sh:nodeKind sh:IRI;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] .
+
+eki:OrganisationShape a sh:NodeShape ;
+	sh:targetClass dbo:organisation ;
+	sh:property [
+		sh:name "nama pesantren" ;
+		sh:path dbo:name ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "alamat" ;
+		sh:path dbo:address ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "RT" ;
+		sh:path eki:rt ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "RW" ;
+		sh:path eki:rw ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "lokasi pesantren" ;
+		sh:path dbo:location ;
+		sh:node eki:VillageShape ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "kode pos" ;
+		sh:path dbo:postalCode ;
+		sh:nodeKind sh:IRI;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "pimpinan pesantren" ;
+		sh:path dbo:name ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:name "keaktifan" ;
+		sh:path eki:aktif ;
+		sh:datatype xsd:boolean ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] .
