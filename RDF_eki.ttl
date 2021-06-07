@@ -1,5 +1,5 @@
-@base <https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf/> .
-@prefix eki: <https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf/> .
+@base <https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#> .
+@prefix eki: <https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#> .
 @prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
