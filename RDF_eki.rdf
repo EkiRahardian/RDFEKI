@@ -2,124 +2,124 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:ns0="https://www.w3.org/2000/01/rdf-schema#"
          xmlns:ns1="https://dbpedia.org/ontology/"
-         xmlns:ns2="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#">
+         xmlns:ns2="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#">
 
-  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#rt">
+  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#rt">
     <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <ns0:range rdf:resource="https://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#rw">
+  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#rw">
     <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <ns0:range rdf:resource="https://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#pimpinan">
+  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#pimpinan">
     <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <ns0:range rdf:resource="https://dbpedia.org/ontology/name"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#aktif">
+  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#aktif">
     <rdf:type rdf:resource="https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <ns0:range rdf:resource="https://www.w3.org/2001/XMLSchema#boolean"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro">
+  <rdf:Description rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro">
     <rdf:type rdf:resource="https://dbpedia.org/ontology/Village"/>
     <ns1:location rdf:resource="https://goo.gl/maps/DPjHR4tFuJdoyNkv5"/>
   </rdf:Description>
 
-  <ns1:Village rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Cabean">
+  <ns1:Village rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Cabean">
     <ns1:location rdf:resource="https://goo.gl/maps/Po67K68b1DJ1asN67"/>
   </ns1:Village>
 
-  <ns1:Village rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Karangmlati">
+  <ns1:Village rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Karangmlati">
     <ns1:location rdf:resource="https://goo.gl/maps/Jyj6QtpvjdiaoMYp7"/>
   </ns1:Village>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210117">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210117">
     <ns1:name>Al Ishlah</ns1:name>
     <ns1:address>Jl. Kyai Turmudzi No.10 Sempal Wadak Bintoro Demak</ns1:address>
     <ns2:rt>5</ns2:rt>
     <ns2:rw>3</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>KH. Ali Mashar</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210115">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210115">
     <ns1:name>Al Fattaah</ns1:name>
     <ns1:address>Jl.Setinggil Alfattaah Rt 06 Rw 02</ns1:address>
     <ns2:rt>6</ns2:rt>
     <ns2:rw>2</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>Abdullah Arief Cholil</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210132">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210132">
     <ns1:name>Subulussalam</ns1:name>
     <ns1:address>Jl.Yudhomenggolo Rt 08 Rw 03 Bintoro Demak</ns1:address>
     <ns2:rt>8</ns2:rt>
     <ns2:rw>3</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>K.H. Nur Abdullah Miftah</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210126">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210126">
     <ns1:name>Darussalam</ns1:name>
     <ns1:address>Jl. Kyai Jebat No 9 Demak 59511</ns1:address>
     <ns2:rt>1</ns2:rt>
     <ns2:rw>7</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>Tafrihan</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210240">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210240">
     <ns1:name>Asshiddiqiyyah</ns1:name>
     <ns1:address>Desa Cabean, Jln. Kyai Kamal Gg. Mawar Rt. 05 Rw. 02 Demak</ns1:address>
     <ns2:rt>5</ns2:rt>
     <ns2:rw>2</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Cabean"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Cabean"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>Nadliron, S. Ag</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210116">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210116">
     <ns1:name>Al Furqon</ns1:name>
     <ns1:address>Ngemplak Rt. 01 / Rw. 03 Karangmlati</ns1:address>
     <ns2:rt>1</ns2:rt>
     <ns2:rw>3</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Karangmlati"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Karangmlati"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>K. Musta'an Ah</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210130">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210130">
     <ns1:name>Nurul Hikmah</ns1:name>
     <ns1:address>Jl. Kyai Singkil No. 16 Bintoro Demak</ns1:address>
     <ns2:rt>7</ns2:rt>
     <ns2:rw>1</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>Moh Ismail Fahmi, Ah</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
   </ns1:organisation>
 
-  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#510033210121">
+  <ns1:organisation rdf:about="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#510033210121">
     <ns1:name>As-Sujuudiyyah</ns1:name>
     <ns1:address>Jl. Glagahwangi Tembiring</ns1:address>
     <ns2:rt>7</ns2:rt>
     <ns2:rw>3</ns2:rw>
-    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.ttl#Bintoro"/>
+    <ns1:location rdf:resource="https://ekirahardian.github.io/RDFEKI/RDF_eki.rdf#Bintoro"/>
     <ns1:postalCode rdf:resource="https://www.geopostcodes.com/Demak"/>
     <ns2:pimpinan>KH. Munawar Sujud</ns2:pimpinan>
     <ns2:aktif rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ns2:aktif>
